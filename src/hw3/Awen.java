@@ -32,5 +32,7 @@ public class Awen {
 		}
 		System.out.printf("總共有%d個數字可以選", count);
 	}
+	
+	
 
 }
