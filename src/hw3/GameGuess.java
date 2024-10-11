@@ -1,10 +1,14 @@
 package hw3;
 
+//玩猜數字遊戲,猜錯會顯示錯誤訊息
+
 import java.util.Scanner;
 
 public class GameGuess {
 	public static void main(String[] args) {
-//		junior();
+//		會亂數產生一個0~9的數字
+		junior();
+//		0~100亂數,每次猜就會提示你是大於還是小於正確答案
 		advance();
 		
 	}

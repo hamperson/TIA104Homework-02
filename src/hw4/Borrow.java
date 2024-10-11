@@ -1,5 +1,6 @@
 package hw4;
 
+//請設計一個程式,可以讓小華輸入欲借的金額後,便會顯示哪些員工編號的同事
 import java.util.Scanner;
 
 public class Borrow {
