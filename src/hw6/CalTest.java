@@ -13,8 +13,7 @@ public class CalTest {
 				int yy = sc.nextInt();
 				sc.close();
 				
-				Calculator c = new Calculator(xx, yy);
-				System.out.println(c.powerXY(xx, yy));
+				System.out.println(Calculator.powerXY(xx, yy));
 				break;
 				
 			} catch (CalException aa) {
