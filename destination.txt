@@ -1,0 +1,3 @@
+This is the content of copied.txt.
+It will be copied to another file.
+複製檔案文字
