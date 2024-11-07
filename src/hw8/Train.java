@@ -2,6 +2,7 @@ package hw8;
 
 import java.util.Objects;
 
+//請設計一個Train類別，設計對應的getter/setter方法
 public class Train implements Comparable<Train> {
 	private int number;
 	private String type;

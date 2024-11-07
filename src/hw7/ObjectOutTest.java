@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.ObjectOutputStream;
 
+//，請寫一個程式，能讀取Object.ser這四個物件，並執行speak()方法觀察結果如何
 public class ObjectOutTest {
 	public static void main(String[] args) throws Exception {
 		File file = new File("C:\\data");

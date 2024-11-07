@@ -1,5 +1,6 @@
 package hw5;
 
+//系統的註冊新增驗證碼的功能
 public class Howework5_4 {
 	public static void main(String[] args) {
 //		System.out.println((int) '0');

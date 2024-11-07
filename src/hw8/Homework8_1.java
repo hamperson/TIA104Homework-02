@@ -2,12 +2,12 @@ package hw8;
 
 import java.math.BigInteger;
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.Iterator;
-import java.util.List;
 
 public class Homework8_1 {
 	public static void main(String[] args) {
-		List data = new ArrayList();
+		Collection data = new ArrayList();
 		data.add(100);
 		data.add(3.14);
 		data.add(21L);
@@ -19,9 +19,12 @@ public class Homework8_1 {
 		data.add("Snoopy");
 		data.add(new BigInteger("1000"));
 
+		//印出這個物件裡的所有元素
+		
+		
 		System.out.println("傳統的for 迴圈");
-		for (int i = 0; i < data.size(); i++) {
-			System.out.println(data.get(i));
+		for (int i = 0; i < ((ArrayList<Object>)data).size(); i++) {
+			System.out.println(((ArrayList<Object>)data).get(i));
 		}
 		System.out.println();
 		System.out.println("iterator");
@@ -44,6 +47,8 @@ public class Homework8_1 {
 				it.remove();
 			}
 		}
+		
+		//再次印出這個集合物件的所有元素
 		for (Object obj : data) {
 			System.out.println(obj);
 		}

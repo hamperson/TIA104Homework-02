@@ -1,5 +1,6 @@
 package hw9;
 
+//饅頭人與詹姆士參加快胃王比賽
 public class BigEater implements Runnable {
 	int counter = 0;
 	String name;

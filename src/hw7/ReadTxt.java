@@ -5,9 +5,10 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 
+//請寫一個程式讀取Sample.txt檔案
 public class ReadTxt {
 	public static void main(String[] args) {
-		File f = new File("c:/TIA104_Workspace/Sample.txt");
+		File f = new File("./src/hw7/Sample.txt");
 		int count = 0;
 		int lineCount = 0;
 		
